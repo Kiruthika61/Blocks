@@ -1,0 +1,524 @@
+body{
+    background-color: black;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:end;
+    
+
+}
+
+
+.outer{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    background-color: blue;
+    width: 20px;
+    height: 20px;  
+    margin: 2px;
+
+}
+.one{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    
+}
+.two{
+    background-color:black;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    
+}
+.outer1{
+    margin-top: ;
+    background-color: pink;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+.inner1{
+    background-color: blue;
+    width: 20px;
+    height: 20px;  
+    margin: 2px;
+}
+.one1{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+}
+.two1{
+    background-color:black;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+}
+
+.outer2{
+    background-color:lightblue;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+.inner2{
+    background-color: blue;
+    width: 20px;
+    height: 20px;  
+    position: absolute;
+    top:20px;
+    left:20px
+
+
+}
+.one2{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    position: absolute;
+    top:20px;
+    right:20px
+}
+.two2{
+    background-color:black;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    position: absolute;
+    bottom:20px;
+    left:20px
+}
+.three{
+    background-color: blueviolet;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+}
+.four{
+    background-color:brown;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    position: absolute;
+    bottom:20px;
+    right:20px
+    
+}
+
+.outer3{
+    background-color:lavender;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    align-items: end;
+}
+.inner3{
+    background-color: blue;
+    width: 20px;
+    height: 20px;  
+    margin: 2px;
+    position: absolute;
+    top:20px;
+    left:20px;
+
+    
+}
+.one3{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    position: absolute;
+    top:20px;
+    right:20px;
+  
+
+}
+.two3{
+    background-color:black;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    
+    
+}
+.three3{
+    background-color:blueviolet;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    align-items: end;
+    
+
+}
+.four3{
+    background-color:brown;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    
+}
+
+.outer4{
+    background-color:lightcoral;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: end;
+}
+.inner4{
+    background-color: blue;
+    width: 20px;
+    height: 20px;  
+    margin: 2px;
+}
+.one4{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+}
+.two4{
+    background-color:black;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+}
+
+.outer5{
+    background-color:goldenrod;
+    margin-left: 20px;   
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.inner5{
+    background-color: blue;
+    width: 20px;
+    height: 20px;  
+    margin: 2px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.one5{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.two5{
+    background-color:black;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 90px;
+    
+    
+}
+.three5{
+    background-color:blueviolet;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.four5{
+    background-color:brown;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 20px;
+    margin-left: 160px;
+    
+}
+
+.outer6{
+    background-color:lightsalmon;
+    margin-left: 20px;   
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.inner6{
+    background-color: blue;
+    width: 20px;
+    height: 20px;  
+    margin: 2px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.one6{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.two6{
+    background-color:black;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 80px;
+    
+    
+}
+.three6{
+    background-color:blueviolet;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.four6{
+    background-color:brown;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 20px;
+    margin-right: 150px;   
+}
+
+.outer7{
+    background-color:lightgreen;
+    margin-left: 20px;   
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.inner7{
+    background-color: blue;
+    width: 20px;
+    height: 20px;  
+    margin: 2px;
+    position: absolute;
+    top: 10px;
+    right: 2px;
+}
+.one7{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.two7{
+    background-color:black;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+    
+}
+.three7{
+    background-color:blueviolet;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.four7{
+    background-color:brown;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 20px;
+    margin-left: 150px;   
+}
+
+.outer8{
+    background-color:lightgrey;
+    margin-left: 20px;  
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.inner8{
+    background-color: blue;
+    width: 20px;
+    height: 20px;  
+    margin: 2px;
+    position: absolute;
+    top: 10px;
+    left: 2px;
+}
+.one8{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.two8{
+    background-color:black;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 95px;
+    
+    
+}
+.three8{
+    background-color:blueviolet;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.four8{
+    background-color:brown;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 20px;
+    margin-right: 150px;   
+}
+
+.outer7{
+    background-color:lightgreen;
+    margin-left: 20px;   
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.inner7{
+    background-color: blue;
+    width: 20px;
+    height: 20px;  
+    margin: 2px;
+    position: absolute;
+    top: 10px;
+    right: 2px;
+}
+.one7{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.two7{
+    background-color:black;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+    
+}
+.three7{
+    background-color:blueviolet;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.four7{
+    background-color:brown;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 20px;
+    margin-left: 150px;   
+}
+
+
